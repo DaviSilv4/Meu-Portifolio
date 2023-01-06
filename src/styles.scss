@@ -8,10 +8,6 @@ p, h1, h2, h3{
 .container{
   padding: 0 20px;
 
-  h1{
-    font-family: 'Poppins', sans-serif;
-  }
-
   @media (min-width: 768px){
     padding: 0 60px;
   }
@@ -25,5 +21,5 @@ p, h1, h2, h3{
   }
 }
 
-html, body { height: 100%; }
+html, body { height: 100%; font-size: 62.5%; font-family: 'Poppins', sans-serif;}
 body { margin: 0; }
